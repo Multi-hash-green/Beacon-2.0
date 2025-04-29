@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini beacon</title>
+</head>
+<body>
+    <div class="beacon">
+        <img src="foto/axel.jfif" alt="Mi foto">
+        <p><b>Axel Bacajol</b></p>
+        <a href="https://www.instagram.com/multi_soon/?utm_source=ig_web_button_share_sheet" target="_blank">instagram</a>
+        <a href="mailto:hetrancrack@gmail.com">Email</a>
+        <a href="http://wa.me/+50259422282" target="_blank">WhatsApp</a>
+    </div>
+</body>
+</html>
+<style>
+    body {
+        background-color: mediumseagreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .beacon {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+        width: 300px;
+    }
+
+    .beacon img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .beacon a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+    }
+
+    .beacon a:hover {
+        background-color: red;
+    }
+</style>
